@@ -19,7 +19,7 @@ export function Hero() {
           className="w-full h-full object-cover"
         >
           <source
-            src="YOUR_VIDEO_URL_HERE.mp4"
+            src={`${import.meta.env.BASE_URL}prevideo.mp4`}
             type="video/mp4"
           />
           {/* Fallback for browsers that don't support video */}
